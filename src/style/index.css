@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -5,16 +9,118 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,	BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   font-size: 16px;
+  background-color: rgb(240, 240, 240);
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  padding: 10px 20px 10px 20px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 10px;
+}
+
+.website-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.register-button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  height: 28px;
+  width: 44px;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  border-radius: 2px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 220px;
+}
+
+.join-login-option {
+  font-size: 14px; 
+}
+
+.join-login-option-button {
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+	border-top-color: white;
+	border-bottom: none;
+	border-left-color: transparent;
+  border-right-color: transparent;
+  margin-left: 8px;
+  margin-bottom: -2px;
+}
+
+.main {
+  margin: 10px 240px 50px 240px;
+}
+
+.main-page-intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro-title {
+  margin-bottom: 10px;
+}
+
+.intro-content {
+  margin-top: 10px;
+}
+
+.main-page-style {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.style-option {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 706px;
+  margin: 0 2px 0 2px;
+  padding: 30px 10px 30px 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.style-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.style-content {
+  color: gray;
+  margin: 10px 20px 100px 20px;
+}
+
+.create-button {
+  background-color: rgb(240, 240, 240);
+  width: 50px;
+  height: 32px;
+  font-size: 12px;
+  border: 1px solid lightgray;
 }
